@@ -1,10 +1,10 @@
 class dog:
     def speak(self):
         print("vow vow")
-class cow:
+class cow(dog):
     def speak(self):
+        super().speak()
         print("mow mow")
-c=dog()
-d=cow()
+c=cow()
 c.speak()
-d.speak()
+
