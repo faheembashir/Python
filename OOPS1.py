@@ -1,5 +1,5 @@
 ########### filtering out the fruits having length more than 3 ##################
-fruits=['mango',"apple","kiwi","custardapple"]
+fruits=['mango',"apple","kiwi","custard-apple"]
 f=list(filter(lambda x:len(x)>3,fruits))
 print(f)
 
